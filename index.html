@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosizwe E. Nojoko — Resume</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header / Profile Section -->
+        <header class="profile-header">
+            <div class="profile-info">
+                <h1>Nosizwe E. Nojoko</h1>
+                <p class="profile-title">Resource Center Manager & Operations Specialist</p>
+                <div class="profile-meta">
+                    <span>📞 0659878816 / 0814617982</span>
+                    <span>✉️ bnojoko@gmail.com</span>
+                </div>
+                <p class="profile-bio" style="color: var(--text-secondary); margin-top: 0.75rem;">
+                    Mohair machine operator with extensive training experience, combining operations management with strong people skills gained through training and leading new employees.
+                </p>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" onclick="switchTab('overview')">At a Glance</button>
+            <button class="tab-btn" onclick="switchTab('experience')">Work History</button>
+            <button class="tab-btn" onclick="switchTab('skills')">Skills</button>
+            <button class="tab-btn" onclick="switchTab('education')">Education</button>
+            <button class="tab-btn" onclick="switchTab('references')">References</button>
+        </nav>
+
+        <!-- At a Glance Tab -->
+        <section id="overview" class="tab-content active">
+            <h2 class="section-title">🚀 Professional Summary</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Operations Management</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.5rem;">
+                        Providing overall operational and administrative oversight of multi-program resource centers, coordinating schedules, facilities, and shared resources.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Program Impact</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.5rem;">
+                        Supported over 615 participants, facilitated the establishment of 25+ funded startups, and contributed to 45 job placements in 2025.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Compliance & Governance</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.5rem;">
+                        Ensuring adherence to internal reporting standards, audit requirements, and maintaining precise operational records for complete accountability.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work History Tab -->
+        <section id="experience" class="tab-content">
+            <h2 class="section-title">💼 Work History</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="status-badge" style="background: rgba(63, 185, 80, 0.15); color: var(--accent-green); padding: 0.15rem 0.5rem; border-radius: 4px; border: 1px solid rgba(63, 185, 80, 0.3); font-weight: 600;">CURRENT</span>
+                        <span class="date-text" style="color: var(--text-secondary);"> | Dec 2024 – Present</span>
+                    </div>
+                    <div class="timeline-role">Resource Center Manager</div>
+                    <div class="timeline-org">Operations and Programming Management</div>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">
+                        Provided overall operational and administrative oversight of a multi-program resource center, ensuring smooth day-to-day functioning. Coordinated daily activities, schedules, and optimal use of facilities and equipment while acting as the central coordination point between participants, leadership, and external stakeholders.
+                    </p>
+                    <ul style="color: var(--text-secondary); margin-top: 0.5rem; padding-left: 1.2rem; font-size: 0.95rem;">
+                        <li><strong>Compliance & Audit:</strong> Ensured compliance with internal procedures, reporting standards, and audit requirements while maintaining accurate operational records.</li>
+                        <li><strong>Program Impact:</strong> Supported over 615 participants and facilitated the establishment of over 25 funded startups in 2025.</li>
+                        <li><strong>Job Placements:</strong> Contributed to 45 job placements in 2025 through coordinated program delivery and stakeholder engagement.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="status-badge" style="background: rgba(110, 118, 129, 0.15); color: var(--text-secondary); padding: 0.15rem 0.5rem; border-radius: 4px; border: 1px solid var(--border-color); font-weight: 600;">COMPLETED</span>
+                        <span class="date-text" style="color: var(--text-secondary);"> | 24 Mar 2011 – 22 Aug 2023</span>
+                    </div>
+                    <div class="timeline-role">Process Operator</div>
+                    <div class="timeline-org">Mohair Spinners South Africa</div>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">
+                        Specialized in production preparation, textile processing (drawing, spinning, winding, assembly, and twisting), and fancy yarn spinning. Leveraged extensive training experience to onboard and mentor new employees.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Tab -->
+        <section id="skills" class="tab-content">
+            <h2 class="section-title">🛠️ Core Skills</h2>
+            <div class="card">
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.5rem;">
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Operations Management</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Program Coordination</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Compliance & Auditing</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Stakeholder Engagement</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">First Aid</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Interpersonal & Training Skills</span>
+                    <span style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: 6px; font-family: var(--font-code); font-size: 0.9rem;">Textile Processing</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Tab -->
+        <section id="education" class="tab-content">
+            <h2 class="section-title">🎓 Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="status-badge" style="background: rgba(63, 185, 80, 0.15); color: var(--accent-green); padding: 0.15rem 0.5rem; border-radius: 4px; border: 1px solid rgba(63, 185, 80, 0.3); font-weight: 600;">GRADUATED</span>
+                        <span class="date-text" style="color: var(--text-secondary);"> | Dec 2003</span>
+                    </div>
+                    <div class="timeline-role">Senior Certificate (Matric)</div>
+                    <div class="timeline-org">East Cape Midlands College</div>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">
+                        <strong>Subjects:</strong> isiXhosa, English, Afrikaans, Computer Practice, Office Practice, Business Economics.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Tab -->
+        <section id="references" class="tab-content">
+            <h2 class="section-title">👥 References</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Ashwell Hufkie</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.2rem;">Production Manager — Mohair Spinners South Africa</p>
+                    <p style="color: var(--accent-blue); font-family: var(--font-code); font-size: 0.9rem; margin-top: 0.75rem;">📞 065986425 / 0715215611</p>
+                </div>
+                <div class="card">
+                    <h3>Luzuko Coko</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.2rem;">Supervisor — Mohair Spinners South Africa</p>
+                    <p style="color: var(--accent-blue); font-family: var(--font-code); font-size: 0.9rem; margin-top: 0.75rem;">📞 0737967752</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 Nosizwe E. Nojoko. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Tab Switching -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
